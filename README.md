@@ -27,7 +27,7 @@ We just need the correct tools, applications and technologies.
 
 # Diagram:
 
-<img src="https://i.ibb.co/xJJCX0N/Cheme-drawio.png">
+<img src="https://i.ibb.co/k4LGNXs/Scheme-drawio.png">
 
 - The main services we are using is Mandala TC7, ChainLink, IPFS and Rapyd.
 - Mandala TC7 is our main blockchain, where thanks to its low fees we can provide the following services.
@@ -45,17 +45,17 @@ We just need the correct tools, applications and technologies.
 
 You can find the link, login and password to use our application at the top. Once inside the platform you will see our Chainlink-based price feed as the first screen.
 
-<img src="https://i.ibb.co/VQ7MCwJ/image.png">
+<img src="https://i.ibb.co/10VVMS0/main2.png">
 
 At the second phone in the image we can see that this feed is based on the data feeds of Mandala TC7 Testnet. As you can see the prices shown on the website are the same as in our Dapp since they come from the same source, the contract as already mentioned is displayed in the Mandala TC7 network Testnet.
 
 In turn we show the contract directly in Remix to show that we are consuming its Data Feeds.
 
-<img src="https://i.ibb.co/9pGYKhg/New-Project.png">
+<img src="https://i.ibb.co/jzzLqd6/chainlink.png">
 
 Next (third phone on the image with three phones) we can see our balances and transactions of Fiat and Crypto. All balances of the NFT tokens and the Acala are obtained from the Blockscout APIs.
 
-<img src="https://i.ibb.co/jvs24kD/image.png">
+<img src="https://i.ibb.co/7bVzpV8/image.png">
 
 Code:
 
@@ -81,7 +81,7 @@ Finally, in the last button you can complete the KYC through Rapyd to verify you
 
 In the swap section (first phone in the next image) we can make an exchange between our Fiat account and our crypto account, we only have to select if we want to convert Crypto to Dollar or Dollar to Crypto. Once the transaction is signed and the operation is finished in the home section we will be able to see how we have already received our money in our Fiat account and deducted it from our Crypto account.
 
-<img src="https://i.ibb.co/2vBwdSq/New-Project-2.png">
+<img src="https://i.ibb.co/NtL3ycj/main4.png">
 
 In our Cash out section (Second phone in the image above) we will have 2 options, generate a virtual debit card where we can use our Fiat money or make an electronic transfer to another debit card, either visa or mastercard.
 
@@ -89,11 +89,11 @@ In our Cash out section (Second phone in the image above) we will have 2 options
 
 Since each message is sent to a smart contract, we must sign the transaction and pay the fee for the transaction. Once the message is sent, we can see it appear in the chat.
 
-<img src="https://i.ibb.co/HxJCq3D/New-Project-3.png">
+<img src="https://i.ibb.co/1f4L7gM/main5.png">
 
 We have to mention that everything regarding the messenger was developed with Mandala TC7 and every transaction or message is wallet signed in the background.
 
-https://github.com/altaga/PolkaSend-Encode/blob/main/Contracts/Chat.sol
+https://github.com/altaga/PolkaSend/blob/main/Contracts/Chat.sol
 
 At the same time we integrate a chat section, where we can talk to any address on the same network, first we put the address with which we want to talk and we can start sending messages, in this case it is possible to send messages, send attached money or even send an NFT.
 
@@ -109,7 +109,7 @@ En este caso para poder realizar este ejemplo se utilizaron celulares reales (de
 
 # What's next for PolkaSend
 
-PolkaSend is a Dapp capable of swapping, cashing out and messaging, where you can save and send NFTs, all registered within the Mandala TC7 network. During the creation process, the incorporation of IPFS was complex because we wanted to integrate it with our blockchain-abled instant messenger. This is where choosing Mandala TC7 and Covalent as our backend and Blockchain of choice paid out as the assembly of all the concepts was easy enough after reading some documentation and using some templates. For future steps we want to improve the UI to make it as intuitive and user friendly as possible. We will be seeking to launch a beta to test the performance of the application.
+PolkaSend is a Dapp capable of swapping, cashing out and messaging, where you can save and send NFTs, all registered within the Mandala TC7 network. During the creation process, the incorporation of IPFS was complex because we wanted to integrate it with our blockchain-abled instant messenger. This is where choosing Mandala TC7 as our Blockchain of choice paid out as the assembly of all the concepts was easy enough after reading some documentation and using some templates. For future steps we want to improve the UI to make it as intuitive and user friendly as possible. We will be seeking to launch a beta to test the performance of the application.
 
 # References
 
@@ -119,8 +119,8 @@ PolkaSend is a Dapp capable of swapping, cashing out and messaging, where you ca
 
 - https://docs.chain.link/docs/using-chainlink-reference-contracts/
 
-- https://Mandala TC7.technology/
+- https://evmdocs.acala.network/
 
-- https://www.covalenthq.com/
+- https://blockscout.mandala.acala.network/
 
 - https://ipfs.io/
