@@ -101,11 +101,11 @@ At the same time we integrate a chat section, where we can talk to any address o
 
 Como ya es parte escencial en cualquier wallet, tenemos tambien la capacidad de hacer tranferencias a travez de el escaneo de un QR.
 
-<img src="https://i.ibb.co/BsMWK9N/New-Project-4.png">
+<img src="https://i.ibb.co/7bLCBsm/image1.png">
 
 En este caso para poder realizar este ejemplo se utilizaron celulares reales (de echo es la misma transaccion que puedes ver en nuestro demo).
 
-<img src="https://i.ibb.co/MCtJvTQ/New-Project-5.png">
+<img src="https://i.ibb.co/rftj7Ns/image3.png">
 
 # What's next for PolkaSend
 

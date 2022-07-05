@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# PolkaSend Deploy Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://i.ibb.co/gVgpQ9X/logo-Polka.png">
 
-## Available Scripts
+El equipo de PolkaSend se preocupa mucho de generar herramientas utiles para los developers y poder desarrollar en cualquier EVM, asi que realizamos la siguiente herramienta para poder desplegar smart contracts sobre la blockchain de Acala EVM+ correctamente.
 
-In the project directory, you can run:
+**IF YOU'RE A JUDGE YOU CAN TEST OUR APPLICATION HERE:**
 
-### `npm start`
+WEBAPP: https://polka-send-contract-deploy-tool.vercel.app/
+Source Code: https://github.com/altaga/PolkaSend/tree/main/WebPageContractsDeploy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Introduction and Problem
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart contracts sobre esta blockchain requiere una serie de parametros y configuraciones para poder funcionar correctamente.
 
-### `npm test`
+# Prerequisites:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Tener una cuenta de developer activada.
+  - https://evmdocs.acala.network/tooling/development-account
+- Leer la documentacion sobre el consumo de gas en las trasacciones de Acala EVM+
+  - https://evmdocs.acala.network/network/gas-parameters
+- Leer la documentacion basica de como usar el RemixIDE.
+  - https://evmdocs.acala.network/tooling/remix-ide
 
-### `npm run build`
+# How it works:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Abre nuestra pagina desde esta URL:
+  - https://polka-send-contract-deploy-tool.vercel.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://i.ibb.co/T1Bkzmz/1.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Presiona el boton para conectarte con tu wallet de metamask. (ya previamente debiste configurar Mandala T7)
 
-### `npm run eject`
+<img src="https://i.ibb.co/SxRgqjr/2.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Acepta la conexion con la pagina.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://i.ibb.co/VJB495X/3.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Obtendremos algunos datos importantes para el correcto despliegue del contrato.
+  - Deberas tener un saldo minimo para poder desplegar el contrato, la pagina te avisara si tienes el minimo de ACA para ello, ademas si no tienes el saldo minimo la pagina no te dejara intentar el despliegue (ya que este te costara aunque falle).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://i.ibb.co/M6TW6XC/4.png">
 
-## Learn More
+- Si tienes el suficiente ACA para poder hacer el despliegue, tendremos 2 opciones pegar nuestro propio bytecode desde Remix IDE o desplegar uno de los contractos precompilados proporcionados por Acala.
+  - Mas detalles de estos contratos aqui: https://github.com/AcalaNetwork/predeploy-contracts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://i.ibb.co/whW6RBX/5.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- En este caso mostraremos el despliegue de un contrato creado en Remix IDE. Solo tenemos que copiar el Bytecode que nos entrega.
 
-### Code Splitting
+<img src="https://i.ibb.co/nmsjj0q/6.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Lo pegaremos en la seccion Raw Remix Bytecode y presionaremos el boton de Upload Bytecode (si hiciste todo bien los recuardos de input se pondran en verde y se mostrara un letrero de Bytecode Ready).
 
-### Analyzing the Bundle Size
+<img src="https://i.ibb.co/bLtJhfZ/7.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Presionaremos el boton de Upload Contract, el cual nos abrirla la metamask con la trasaccion que vamos a realizar pero ALTO, tenemos que modificar los parametros de gas para que la trasaccion se haga correctamente.
 
-### Making a Progressive Web App
+<img src="https://i.ibb.co/y0YQ3TT/8.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Presionamremos en edit y nos abrirla la siguiente seccion, ahi presionaremos Edit suggested gas fee.
 
-### Advanced Configuration
+<img src="https://i.ibb.co/zP5zBDJ/9.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- En esta seccion pondremos los parametros que nos indica la web app y presionaremos save.
 
-### Deployment
+<img src="https://i.ibb.co/3vmTW4R/10.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Ahora si podemos darle Confirm a nuestro contrato.
 
-### `npm run build` fails to minify
+<img src="https://i.ibb.co/s6QMG7m/11.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Si todo salio bien sonara un comico YAY, aparecera confetti y el Contract Address, anota la address del contrato ya que el explorer de Blockscout puede llegar a tardar.
+
+<img src="https://i.ibb.co/5jQw2Kn/12.png">
+
+- Ya con esa address podras revisar tu contrato en Remix, notaras que este funcionara perfactemente.
+
+<img src="https://i.ibb.co/J2tpzLN/13.png">
+<img src="https://i.ibb.co/4F1rTgc/14.png">
