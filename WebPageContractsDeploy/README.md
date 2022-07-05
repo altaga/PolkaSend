@@ -1,4 +1,4 @@
-# PolkaSend Deploy Tool
+# PolkaSend  Contract Deploy Tool
 
 <img src="https://i.ibb.co/gVgpQ9X/logo-Polka.png">
 
