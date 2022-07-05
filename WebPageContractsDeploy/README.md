@@ -29,7 +29,7 @@ Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart
 
 <img src="https://i.ibb.co/T1Bkzmz/1.png">
 
-- Presiona el boton para conectarte con tu wallet de metamask. (ya previamente debiste configurar Mandala T7)
+- Presiona el boton para conectarte con tu wallet de metamask. (ya previamente debiste configurar Mandala TC7)
 
 <img src="https://i.ibb.co/SxRgqjr/2.png">
 
