@@ -71,7 +71,7 @@ Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart
 
 <img src="https://i.ibb.co/s6QMG7m/11.png">
 
-- Si todo salio bien sonara un comico YAY, aparecera confetti y el Contract Address, anota la address del contrato ya que el explorer de Blockscout puede llegar a tardar.
+- Si todo salio bien sonara un comico YAY, aparecera confetti y el Contract Address, anota la address del contrato ya que el explorer de Blockscout puede llegar a tardar para poder volver a verla.
 
 <img src="https://i.ibb.co/5jQw2Kn/12.png">
 
