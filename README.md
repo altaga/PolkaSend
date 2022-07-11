@@ -6,7 +6,7 @@ PolkaSend is a Alaca EVM+ based DeFi dapp that works in tandem with ChainLink, I
 
 **IF YOU'RE A JUDGE YOU CAN TEST OUR APPLICATION HERE:**
 
-WEBAPP: https://main.d2zwmo112bf8l3.amplifyapp.com/
+WEBAPP: https://www.polkasend.online/
 
 - email: polkauser@polkasend.com 
 - password: toortoor
@@ -27,7 +27,7 @@ We just need the correct tools, applications and technologies.
 
 # Diagram:
 
-<img src="https://i.ibb.co/k4LGNXs/Scheme-drawio.png">
+<img src="https://i.ibb.co/RhFhJgy/Scheme-drawio.png">
 
 - The main services we are using is Mandala TC7, ChainLink, IPFS and Rapyd.
 - Mandala TC7 is our main blockchain, where thanks to its low fees we can provide the following services.
@@ -45,13 +45,13 @@ We just need the correct tools, applications and technologies.
 
 You can find the link, login and password to use our application at the top. Once inside the platform you will see our Chainlink-based price feed as the first screen.
 
-<img src="https://i.ibb.co/10VVMS0/main2.png">
+<img src="https://i.ibb.co/FDY9g6Q/main2-1.png">
 
 At the second phone in the image we can see that this feed is based on the data feeds of Mandala TC7 Testnet. As you can see the prices shown on the website are the same as in our Dapp since they come from the same source, the contract as already mentioned is displayed in the Mandala TC7 network Testnet.
 
 In turn we show the contract directly in Remix to show that we are consuming its Data Feeds.
 
-<img src="https://i.ibb.co/jzzLqd6/chainlink.png">
+<img src="https://i.ibb.co/pZT6tNt/chainlink-1.png">
 
 Next (third phone on the image with three phones) we can see our balances and transactions of Fiat and Crypto. All balances of the NFT tokens and the Acala are obtained from the Blockscout APIs.
 
@@ -81,7 +81,7 @@ Finally, in the last button you can complete the KYC through Rapyd to verify you
 
 In the swap section (first phone in the next image) we can make an exchange between our Fiat account and our crypto account, we only have to select if we want to convert Crypto to Dollar or Dollar to Crypto. Once the transaction is signed and the operation is finished in the home section we will be able to see how we have already received our money in our Fiat account and deducted it from our Crypto account.
 
-<img src="https://i.ibb.co/NtL3ycj/main4.png">
+<img src="https://i.ibb.co/Ns5SYRs/main4-1.png">
 
 In our Cash out section (Second phone in the image above) we will have 2 options, generate a virtual debit card where we can use our Fiat money or make an electronic transfer to another debit card, either visa or mastercard.
 
@@ -89,7 +89,7 @@ In our Cash out section (Second phone in the image above) we will have 2 options
 
 Since each message is sent to a smart contract, we must sign the transaction and pay the fee for the transaction. Once the message is sent, we can see it appear in the chat.
 
-<img src="https://i.ibb.co/1f4L7gM/main5.png">
+<img src="https://i.ibb.co/6WDvd0k/main5-1.png">
 
 We have to mention that everything regarding the messenger was developed with Mandala TC7 and every transaction or message is wallet signed in the background.
 
