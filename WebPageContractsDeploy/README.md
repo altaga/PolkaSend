@@ -1,4 +1,4 @@
-# PolkaSend Deploy Tool
+# PolkaSend  Contract Deploy Tool
 
 <img src="https://i.ibb.co/gVgpQ9X/logo-Polka.png">
 
@@ -29,7 +29,7 @@ Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart
 
 <img src="https://i.ibb.co/T1Bkzmz/1.png">
 
-- Presiona el boton para conectarte con tu wallet de metamask. (ya previamente debiste configurar Mandala T7)
+- Presiona el boton para conectarte con tu wallet de metamask. (ya previamente debiste configurar Mandala TC7)
 
 <img src="https://i.ibb.co/SxRgqjr/2.png">
 
@@ -71,7 +71,7 @@ Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart
 
 <img src="https://i.ibb.co/s6QMG7m/11.png">
 
-- Si todo salio bien sonara un comico YAY, aparecera confetti y el Contract Address, anota la address del contrato ya que el explorer de Blockscout puede llegar a tardar.
+- Si todo salio bien sonara un comico YAY, aparecera confetti y el Contract Address, anota la address del contrato ya que el explorer de Blockscout puede llegar a tardar para poder volver a verla.
 
 <img src="https://i.ibb.co/5jQw2Kn/12.png">
 
