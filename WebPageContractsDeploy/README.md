@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/gVgpQ9X/logo-Polka.png">
 
-El equipo de PolkaSend se preocupa mucho de generar herramientas utiles para los developers y poder desarrollar en cualquier EVM, asi que realizamos la siguiente herramienta para poder desplegar smart contracts sobre la blockchain de Acala EVM+ correctamente.
+The PolkaSend team cares a lot about generating useful tools for developers and being able to develop in any EVM, so we made the following tool to be able to deploy smart contracts on the Acala EVM+ blockchain correctly.
 
 **IF YOU'RE A JUDGE YOU CAN TEST OUR APPLICATION HERE:**
 
@@ -11,7 +11,7 @@ Source Code: https://github.com/altaga/PolkaSend/tree/main/WebPageContractsDeplo
 
 # Introduction and Problem
 
-Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart contracts sobre esta blockchain requiere una serie de parametros y configuraciones para poder funcionar correctamente.
+As you well know if you are a developer on Acala EVM+, the deployment of smart contracts on this blockchain requires a series of parameters and configurations in order to function correctly.
 
 # Prerequisites:
 
@@ -24,58 +24,58 @@ Como bien sabes si eres un desarrollador sobre Acala EVM+ el despliegue de smart
 
 # How it works:
 
-- Abre nuestra pagina desde esta URL:
+- Open our tool from this URL:
   - https://polka-send-contract-deploy-tool.vercel.app/
 
 <img src="https://i.ibb.co/T1Bkzmz/1.png">
 
-- Presiona el boton para conectarte con tu wallet de metamask. (ya previamente debiste configurar Mandala TC7)
+- Press the button to connect with your metamask wallet. (You should have previously configured Mandala TC7)
 
 <img src="https://i.ibb.co/SxRgqjr/2.png">
 
-- Acepta la conexion con la pagina.
+- Accept the connection with the webpage.
 
 <img src="https://i.ibb.co/VJB495X/3.png">
 
-- Obtendremos algunos datos importantes para el correcto despliegue del contrato.
-  - Deberas tener un saldo minimo para poder desplegar el contrato, la pagina te avisara si tienes el minimo de ACA para ello, ademas si no tienes el saldo minimo la pagina no te dejara intentar el despliegue (ya que este te costara aunque falle).
+- We will obtain some important data for the correct deployment of the contract.
+   - You must have a minimum balance to be able to deploy the contract, the page will notify you if you have the minimum ACA for it, also if you do not have the minimum balance the page will not let you attempt the deployment (since it will cost you even if it fails).
 
 <img src="https://i.ibb.co/M6TW6XC/4.png">
 
-- Si tienes el suficiente ACA para poder hacer el despliegue, tendremos 2 opciones pegar nuestro propio bytecode desde Remix IDE o desplegar uno de los contractos precompilados proporcionados por Acala.
-  - Mas detalles de estos contratos aqui: https://github.com/AcalaNetwork/predeploy-contracts
+- If you have enough ACA to be able to deploy, we will have 2 options to either paste our own bytecode from the Remix IDE or deploy one of the precompiled contracts provided by Acala.
+   - More details of these contracts here: https://github.com/AcalaNetwork/predeploy-contracts
 
 <img src="https://i.ibb.co/whW6RBX/5.png">
 
-- En este caso mostraremos el despliegue de un contrato creado en Remix IDE. Solo tenemos que copiar el Bytecode que nos entrega.
+- In this case we will show the deployment of a contract created in Remix IDE. We only have to copy the Bytecode that it gives us.
 
 <img src="https://i.ibb.co/nmsjj0q/6.png">
 
-- Lo pegaremos en la seccion Raw Remix Bytecode y presionaremos el boton de Upload Bytecode (si hiciste todo bien los recuardos de input se pondran en verde y se mostrara un letrero de Bytecode Ready).
+- We will paste it in the Raw Remix Bytecode section and press the Upload Bytecode button (if you did everything right the input memories will turn green and a Bytecode Ready sign will be displayed).
 
 <img src="https://i.ibb.co/bLtJhfZ/7.png">
 
-- Presionaremos el boton de Upload Contract, el cual nos abrirla la metamask con la trasaccion que vamos a realizar pero ALTO, tenemos que modificar los parametros de gas para que la trasaccion se haga correctamente.
+- We will press the Upload Contract button, which will open the metamask with the transaction that we are going to carry out but STOP, we have to modify the gas parameters so that the transaction is done correctly.
 
 <img src="https://i.ibb.co/y0YQ3TT/8.png">
 
-- Presionamremos en edit y nos abrirla la siguiente seccion, ahi presionaremos Edit suggested gas fee.
+- We will press on edit and the next section will open, there we will press Edit suggested gas fee.
 
 <img src="https://i.ibb.co/zP5zBDJ/9.png">
 
-- En esta seccion pondremos los parametros que nos indica la web app y presionaremos save.
+- In this section we will put the parameters indicated by the web app and we will press save.
 
 <img src="https://i.ibb.co/3vmTW4R/10.png">
 
-- Ahora si podemos darle Confirm a nuestro contrato.
+- Now if we can confirm our contract.
 
 <img src="https://i.ibb.co/s6QMG7m/11.png">
 
-- Si todo salio bien sonara un comico YAY, aparecera confetti y el Contract Address, anota la address del contrato ya que el explorer de Blockscout puede llegar a tardar para poder volver a verla.
+- If everything went well, a comical YAY will sound, confetti will appear and the Contract Address, write down the address of the contract since the Blockscout explorer may take time to see it again.
 
 <img src="https://i.ibb.co/5jQw2Kn/12.png">
 
-- Ya con esa address podras revisar tu contrato en Remix, notaras que este funcionara perfactemente.
+- Now with that address you can review your contract in Remix, you will notice that it will work perfectly.
 
 <img src="https://i.ibb.co/J2tpzLN/13.png">
 <img src="https://i.ibb.co/4F1rTgc/14.png">
