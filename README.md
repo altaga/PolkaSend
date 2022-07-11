@@ -17,7 +17,7 @@ Over the last decade, most economies in Latin America and the Caribbean have dis
 
 <img src="https://i.ibb.co/SQkXJsw/image.png">
 
-El Salvador’s experiment with Bitcoin has justifiably intrigued much of the financial world. That focus might be missing the much larger story. Regardless of the outcome of El Salvador’s cryptocurrency venture, mobile phones, fintech, DeFi, blockchain technology, and cryptocurrency, are poised to draAcalaally alter banking and commerce, and potentially economic stability, throughout the region.
+El Salvador’s experiment with Bitcoin has justifiably intrigued much of the financial world. That focus might be missing the much larger story. Regardless of the outcome of El Salvador’s cryptocurrency venture, mobile phones, fintech, DeFi, blockchain technology, and cryptocurrency, are poised to drastically alter banking and commerce, and potentially economic stability, throughout the region.
 
 <img src="https://i.ibb.co/PDvN6MY/image.png">
 
