@@ -124,3 +124,9 @@ PolkaSend is a Dapp capable of swapping, cashing out and messaging, where you ca
 - https://blockscout.mandala.acala.network/
 
 - https://ipfs.io/
+
+- https://www.blockchain-council.org/news/polkadot-plans-to-boost-it-ecosystem-and-web3-platform/
+
+- https://medium.com/coinmonks/5-lessons-from-creating-a-blockchain-startup-on-polkadot-5006387e0b
+
+- https://polkadot.network/
