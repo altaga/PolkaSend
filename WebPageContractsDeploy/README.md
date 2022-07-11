@@ -15,11 +15,11 @@ As you well know if you are a developer on Acala EVM+, the deployment of smart c
 
 # Prerequisites:
 
-- Tener una cuenta de developer activada.
+- Have an activated developer account.
   - https://evmdocs.acala.network/tooling/development-account
-- Leer la documentacion sobre el consumo de gas en las trasacciones de Acala EVM+
+- Read the documentation on gas consumption in Acala EVM+ transactions
   - https://evmdocs.acala.network/network/gas-parameters
-- Leer la documentacion basica de como usar el RemixIDE.
+- Read the basic documentation on how to use the RemixIDE.
   - https://evmdocs.acala.network/tooling/remix-ide
 
 # How it works:
